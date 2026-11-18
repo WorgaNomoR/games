@@ -1,0 +1,1 @@
+var e=`/games/`.replace(/\/+$/,``);function t(t){return`${e}/${t.replace(/^\/+/,``)}`}export{t};

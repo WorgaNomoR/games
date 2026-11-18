@@ -1,0 +1,1 @@
+import{t as e}from"./paths.CMADTELf.js";var t=new URLSearchParams(location.search).get(`return`);if(t)try{let n=new URL(t,location.origin),r=e(document.documentElement.lang+`/catalog/`);if(n.origin===location.origin&&n.pathname===r)for(let e of document.querySelectorAll(`[data-back-catalog]`))e.href=n.pathname+n.search}catch{}
